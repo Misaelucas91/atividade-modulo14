@@ -1,0 +1,138 @@
+body {
+  background: rgba(253, 240, 192, 0.7);
+}
+.navbar {
+  background: #947BD3;
+}
+
+.nav .nav-link.active {
+  background: #5E4AE3;
+}
+.nav .nav-link.active:hover {
+  color: #fff;
+}
+
+.nav .nav-link:hover {
+  color: #5E4AE3;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.destaques h2,
+.promocoes h2,
+.categorias h2,
+.login h2 {
+  color: #2F1CB0;
+}
+
+.destaques img {
+  border-radius: 4px;
+}
+
+.destaques li {
+  list-style: none;
+}
+
+.destaques a {
+  text-decoration: none;
+  color: #5E4AE3;
+}
+
+.destaques a:hover {
+  color: #2F1CB0;
+}
+
+.list-group-item {
+  background: rgba(253, 240, 192, 0.5);
+}
+
+.promocoes h3 {
+  color: #5E4AE3;
+  margin-top: 10px;
+}
+
+.game-promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buy {
+  background: #5E4AE3;
+  color: #fff;
+  padding: 10px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.buy:hover {
+  background: #2F1CB0;
+}
+
+.price {
+  color: #2F1CB0;
+}
+
+.price::after {
+  content: '$24,00';
+  font-size: .8em;
+  color: #aaa;
+  text-decoration: line-through;
+  margin-left: 4px;
+}
+
+.nav-categoria .nav-link{
+  color: #5E4AE3;
+}
+
+.nav-categoria .nav-link:hover {
+  color: #2F1CB0;
+}
+
+.login label,
+.login h3 {
+  color: #5E4AE3;
+}
+
+.btn {
+  background: #5E4AE3;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #2F1CB0;
+  color: #fff;
+}
+
+.redes-sociais {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.redes-sociais a {
+  text-decoration: none;
+  color: #5E4AE3;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 300px;
+  }
+  .game-promo{
+    margin-bottom: 16px;
+  }
+  .nav-categoria{
+    margin-bottom: 16px;
+  }
+  .line::before{
+    display: none;
+  }
+}
